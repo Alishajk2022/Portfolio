@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="section">
+        <div class="header">
+            <div id="header">
+                <div id="logo">
+                    <li><a href="#">Alisha's portfolio</a></li>
+                </div>
+                <div id="menu">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#about">About</a>
+                    <a href="index.html#skills">Skills</a>
+                    <a href="index.html#interests">Interests</a>
+                    <a href="index.html#education">Education</a>
+                    <a href="index.html#projects">Project</a>
+                    <a href="index.html#contactMe">Contact</a>
+                </div>
+                <div id="open">
+                    <a href="javascript:void(0)" onclick="openNav()" id="openButton">&#9776; </a>
+                </div>
+            </div>
+            <br>
+            <div id="navBar">
+                <a href="javascript:void(0);" class="closeButton" onclick="closeNav()">&times;</a>
+                <a href="index.html">Home</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#skills">Skills</a>
+                <a href="index.html#interests">Interests</a>
+                <a href="index.html#education">Education</a>
+                <a href="index.html#projects">Project</a>
+                <a href="index.html#contactMe">Contact</a>
+            </div>
+        </div>
+        <div id="message">
+            <a href="javascript:void(0);" class="closeButton" onclick="closeMsg()">&times;</a>
+            <br>
+            <div id="form">
+                <h3>Contact me</h3>
+                <label for="input">Enter name</label>
+                <input type="text" id="name" placeholder="Enter your name">
+                <br>
+                <br>
+                <label for="input">Enter mail id</label>
+                <input type="text" id="mailid" placeholder=" Enter Mail Id">
+                <br>
+                <br>
+                <label for="input">Enter your message</label>
+                <input type="text" name="msg" id="msg" placeholder="Message" class="msg">
+                <br>
+                <br>
+                <button id="submit" onclick="submitMessage()">Submit</button>
+            </div>
+
+        </div>
+        <div id="container">
+
+
+            <h1>Hey It's me Alisha</h1>
+
+            <div id="intro">
+                <div id="pic">
+                    <h2>I'm a Developer</h2>
+                    <img src="/home/qbuser/Assignment/Portfolio/Pictures/AlishaJohnK.JPG" alt="Pic of Alisha">
+                </div>
+                <div id="about">
+                    <h2>About Me</h2>
+                    <p> I'm passionate to do creative works. Highly energetic and goal-oriented
+                        personality, looking for a challenging
+                        role as an engineer to deliver
+                        excellence to the Organization as well
+                        as society by putting my skills and
+                        knowledge to the best use and to
+                        expand the realm of my experience
+                        and insights. Born and brought up in Thrissur. Well known for creativity and willngness to work
+                        hard.
+                    </p>
+                </div>
+            </div>
+            <div id="skills">
+                <h2>Skills</h2>
+                <div id="skillsAndInterests">
+
+                    <div id="techSkills">
+
+                        <h4>Technical Skills</h4>
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/html.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/css-icons.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/js.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/python.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/c++.png" alt="">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/arduino.png" alt="">
+                        <li>HTML</li>
+                        <li>CSS </li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>C++</li>
+                        <li>Arduino</li>
+                        <li>Adobe Sketchbook </li>
+                    </div>
+                    <div id="softSkills">
+                        <h4>Soft Skills</h4>
+                        <li>Creative</li>
+                        <li>Curious</li>
+                        <li>Self learner</li>
+                    </div>
+                    <div id="interests">
+                        <h4>Interests</h4>
+                        <div id="interestPics">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/camera-gb667d1d6d_1280.png"
+                                alt="Camera">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/mic-g63c10ccf2_1280.png" alt="Mic">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/musical-note-g2f3e0e121_1280.png"
+                                alt="Music">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/guitare-g3a28b2f0c_1280.png"
+                                alt="Ukulele">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/icon-g100b50a64_1280.png" alt="TV">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/brush-gb5e8c75f1_1280.png" alt="Brush">
+                            <img src="/home/qbuser/Assignment/Portfolio/Pictures/silhouette-ga534c6da3_1280.png"
+                                alt="Puzzles">
+                        </div>
+                        <div id="interestText">
+                            <li>Music</li>
+                            <li>Art and Crafts </li>
+                            <li>Calligraphy</li>
+                            <li>Puzzle</li>
+                            <li>Ukulele</li>
+                            <li>Poetry </li>
+                            <li>Movies</li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="knowmemore">
+
+                <div id="education">
+                    <h2>Education</h2>
+                    <div id="educationSections">
+
+                        <h4>2022</h4>
+                        <p>Bachelor of Technology</p>
+                        <p>Electronics and Communication Engineering </p>
+
+                        <h4>2018</h4>
+                        <p>Higher Secondary Education</p>
+
+                        <h4>2016</h4>
+                        <p>Secondary School leaving certificate</p>
+
+                    </div>
+                </div>
+                <div id="projects">
+                    <h2>Projects</h2>
+                    <p>Hardwareclub IEDC Webpage <br> Kerala tourism webpage <br> Navitrolley <br> Ventometer <br>Smart
+                        Stick </p>
+                    <div id="projectImage">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/Screenshot from 2022-08-11 16-38-20.png"
+                            alt="Webpage iedc">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/IMG-20220811-WA0010.jpg"
+                            alt="webpage kdisc">
+
+                    </div>
+                </div>
+            </div>
+            <div id="contactMe">
+                <h2>Contact Details</h2>
+                <div id="contact">
+                    <div id="address">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/location-g761d05385_1280.png"
+                            alt="Address">
+                        <p>Kannoth House <br> P & T Quarters Road <br> Poothole, Thrissur 680004</p>
+                        <!-- <div class="hide">Click to copy</div> -->
+                    </div>
+                    <div id="mail">
+                        <img src=" /home/qbuser/Assignment/Portfolio/Pictures/envelope-gf8b4f24df_1280.png"
+                            alt="Mail Id">
+                        <p>alisha.j@qburst.com</p>
+                    </div>
+                    <div id="phone">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/phone-g832d064bd_1280.png"
+                            alt="Phone Number">
+                        <p>6238996343</p>
+                    </div>
+                    <div id="linkedin">
+                        <img src="/home/qbuser/Assignment/Portfolio/Pictures/social-gde5cb1110_1920.png" alt="LinkedIn">
+                        <p>Linkedin</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <button onclick="connectMe()" id="connect">Message</button>
+            <div id="moveTop">
+                <a href="index.html"><img
+                        src="/home/qbuser/Assignment/Portfolio/Pictures/paper-airplane-g0b98da91d_1280.png"
+                        alt="Move to top"></a>
+                <a href="index.html">Click to Scroll up</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <footer>&copy;Alisha John K</footer>
+    </div>
+
+</body>
+
+</html>
